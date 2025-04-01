@@ -1,1 +1,3 @@
-console.log("Synforma cargado correctamente.");
+document.addEventListener("DOMContentLoaded", function () {
+  console.log("JS activo en Synforma");
+});
