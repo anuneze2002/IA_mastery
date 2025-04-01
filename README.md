@@ -22,4 +22,3 @@
 - Si quieres ampliar funcionalidades, puedes usar JavaScript o conectar con Firebase.
 
 © 2025 Synforma
- 
