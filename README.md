@@ -1,17 +1,24 @@
-# Synforma 3D Web App
+# Synforma AutoApp - Sitio Web
 
-Aplicación web para venta de archivos de impresión 3D.
+## Archivos incluidos
 
-## Características
-- Marketplace con botón de pago PayPal
-- Estética profesional y adaptativa
-- Scroll animado con AOS
-- Sección de contacto
+- `index.html` — Redirige automáticamente a modelos.html
+- `modelos.html` — Productos disponibles con opción de pago PayPal
+- `galeria.html` — Muestra ejemplos de impresiones realizadas
+- `login.html` — Formulario simple de autenticación
+- `style.css` — Estilos para diseño profesional y visual atractivo
+- `script.js` — Lógica mínima en JavaScript (puede ampliarse)
 
-## Cómo usar PayPal
-1. Crea un botón desde https://www.paypal.com/buttons
-2. Reemplaza `XXXXXXXXXXXX` con tu `hosted_button_id` generado.
-3. El botón quedará funcional y listo para ventas.
+## Cómo usar
 
----
-Desarrollado por Synforma © 2025.
+1. Abre `index.html` en tu navegador.
+2. El sitio redirigirá a la página de productos.
+3. Puedes navegar entre modelos, galería y login usando los botones y enlaces.
+
+## Para producción
+
+- Asegúrate de reemplazar el `hosted_button_id` con tu ID real de botón PayPal.
+- Añade más archivos .stl u otros recursos según tu inventario.
+- Si quieres ampliar funcionalidades, puedes usar JavaScript o conectar con Firebase.
+
+© 2025 Synforma
