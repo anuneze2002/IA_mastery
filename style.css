@@ -1,29 +1,32 @@
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #fff4f0;
-  color: #222;
+  font-family: sans-serif;
+  background: #fff4f0;
+  margin: 0;
+  padding: 0;
 }
-.navbar {
-  background-color: #ff4c60 !important;
-}
-.navbar-brand {
-  font-weight: bold;
-  font-size: 1.5rem;
-  display: flex;
-  align-items: center;
-}
-.navbar-brand img {
-  height: 35px;
-  margin-right: 10px;
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
 }
 .card {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
   border-left: 5px solid #ff4c60;
 }
-.btn-primary {
-  background-color: #ff4c60;
-  border-color: #ff4c60;
-}
-footer {
-  background-color: #ff4c60;
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #ff4c60;
   color: white;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+.btn-success {
+  background: green;
+}
+.btn-primary {
+  background: #007bff;
 }
