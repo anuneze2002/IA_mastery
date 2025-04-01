@@ -1,0 +1,1 @@
+console.log("Synforma cargado correctamente.");
